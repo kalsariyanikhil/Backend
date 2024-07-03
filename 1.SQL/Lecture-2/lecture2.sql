@@ -12,7 +12,7 @@ insert into user (firstname , lastname , age) values
                  ('Sahil' , 'Swami', 23);
 
 
-insert into user  values ('Ketan' , 'Ahir', 27),
+insert into user  values ('Ketan' , 'Ahir', 27);
                  
 insert into user (firstname , lastname ) values ('Shivam' , 'Dube');
 insert into user (firstname , age ) values ('Virat' , 35);
