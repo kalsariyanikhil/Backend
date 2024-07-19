@@ -1,4 +1,11 @@
- create table product (PRODUCTNO varchar(6), DESCRIPTION varchar(15), PROFITPERCENT int , UNITMEASURE varchar(10), QTYONHAND int, REORDERLEL int, SELLPRICE int, COSTPRICE int);
+ create table product (PRODUCTNO varchar(6), 
+     DESCRIPTION varchar(15),
+     PROFITPERCENT int , 
+     UNITMEASURE varchar(10),
+     QTYONHAND int,
+     REORDERLEL int,
+     SELLPRICE int, 
+     COSTPRICE int);
 
  insert into product  values
  ("P00001","T-Shirts",5,"Piece",200,50,350,250),

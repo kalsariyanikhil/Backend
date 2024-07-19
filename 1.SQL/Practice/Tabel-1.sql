@@ -1,4 +1,11 @@
-create table client (CLIENTNO varchar(6),NAME varchar(20),ADDRESS1 varchar(30),ADDRESS2 varchar(30),CITY varchar(15),PINCODE int,STATE varchar(15),BALDUE int);
+create table client (CLIENTNO varchar(6),
+NAME varchar(20),
+ADDRESS1 varchar(30),
+ADDRESS2 varchar(30),
+CITY varchar(15),
+PINCODE int,
+STATE varchar(15),
+BALDUE int);
 
 insert into client(CLIENTNO,NAME,ADDRESS1,ADDRESS2,CITY,PINCODE,STATE,BALDUE) values
 ("C00001","Ivan Bayross","A/14","Worli","Mumbai",400054,"Maharashtra",15000),
